@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color><!--黑色 -->
+
+    <color name="white">#FFFFFF</color><!--白色 -->
+
+    <color name="yellow">#ffff00</color><!--黄色 -->
+
+    <color name="orange">#ffa500</color><!--橙色 -->
+
+    <color name="violet">#ee82ee</color><!--紫罗兰色 -->
+
+    <color name="blue">#0000ff</color><!--蓝色 -->
+
+    <color name="green">#008000</color><!--绿色 -->
+
+    <color name="indigo">#4b0082</color><!--靛青色 -->
+
+    <color name="red">#ff0000</color><!--红色 -->
+
+    <color name="btn_common_press_v21">#c7c7c7</color>
+
+    <color name="btn_common_press_v16">#d7d7d7</color>
+
+</resources>

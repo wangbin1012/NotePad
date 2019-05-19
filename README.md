@@ -3,8 +3,8 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190519144220932.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dhbmdiaW5fMTAxMg==,size_16,color_FFFFFF,t_70)
 **基本功能核心代码:**
-1.增加时间戳显示
-(1)notelist_item.xml
+**1.增加时间戳显示**
+**(1)notelist_item.xml**
 ```java
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2010 The Android Open Source Project
@@ -47,7 +47,7 @@
         android:paddingLeft="5dip"/>
 </LinearLayout>
 ```
-NotePadProvider.java
+**NotePadProvider.java**
 ```java
 // Gets the current system time in milliseconds
 Long now = Long.valueOf(System.currentTimeMillis());
@@ -63,11 +63,12 @@ if (values.containsKey(NotePad.Notes.COLUMN_NAME_CREATE_DATE) == false) {
 
 **截图：**
 
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190519141442811.png)
 
 
-**根据标题查找便签
-(1)NoteSearch.java**
+**根据标题查找便签**
+**NoteSearch.java**
 ```java
 package com.example.notepad;
 
@@ -172,10 +173,12 @@ public class NoteSearch  extends ListActivity  implements SearchView.OnQueryText
 ```
 
 **搜索功能截图**
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190519142520503.png)
-**附加功能：背景更改
-更改默认背景为白色
-AndroidManifest.xml**
+
+**附加功能：背景更改**
+**更改默认背景为白色**
+**AndroidManifest.xml**
 ```java
 <activity
     android:name=".NotesList"
@@ -217,5 +220,6 @@ case R.id.menu_theme_daytime:
 
 ```
 **修改背景截图：**
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190519142943364.png)
 
